@@ -1,15 +1,15 @@
 /*Variables*/
 
-var rowConfiture= document.getElementById('row-confitures');
+var rowConfiture= document.getElementById('part-confitures');
 var confitureNone = document.getElementById('confitures');
 
-var rowBoisson= document.getElementById('row-boissons');
+var rowBoisson= document.getElementById('part-boissons');
 var boissonNone = document.getElementById('boissons');
 
-var rowFruit= document.getElementById('row-fruits');
+var rowFruit= document.getElementById('part-fruits');
 var fruitNone = document.getElementById('fruits');
 
-var rowLegume= document.getElementById('row-legumes');
+var rowLegume= document.getElementById('part-legumes');
 var legumesNone = document.getElementById('legumes');
 
 var allNone = document.getElementById('all');

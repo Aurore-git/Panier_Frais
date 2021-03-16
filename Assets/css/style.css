@@ -43,7 +43,7 @@ h6{
 
 
 /* Compartiments Produits */
-#row-buttons{
+#part-buttons{
     display:flex;
     justify-content:space-around;
     margin-bottom:5%;
