@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panier Frais</title>
+
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="Assets/css/style.css"> 
+</head>
+
+<body>
+
+<!--Barre de navigation-->
+<div class="container-fluid  bg-white">
+
+    <nav class="navbar navbar-expand-lg navbar-light  justify-content-between">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <div id="navbarContent" class="collapse navbar-collapse ">
+
+            <div class="row">
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                        <a class="nav-link" href="#row-confitures">Confitures</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="#row-boissons">Boissons</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="#row-fruits">Fruits</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="#row-legumes">Légumes</a>
+                        </li>
+                    </ul>
+                </div>
+            </div> 
+        </div>
+    </nav>
+</div>
+
+
+<!--Bannière-->
+<div class="container-fluid"  justify-content-center>
+    <div class="row" id="banniere">
+        <div class="card">
+            <img src="Assets/Images/banniere2.jpeg" alt="bannière" />
+        </div>
+    </div>
+    <div class="row" id="row-buttons">
+        <button type="button" id="confitures" class="btn btn-success btn-sm mb-2">Confitures</button>
+        <button type="button" id="boissons" class="btn btn-success btn-sm mb-2">Boissons</button>
+        <button type="button" id="fruits" class="btn btn-success btn-sm mb-2">Fruits</button>
+        <button type="button" id="legumes" class="btn btn-success btn-sm mb-2">Légumes</button>
+        <button type="button" id="all" class="btn btn-warning btn-sm mb-2">Total</button>
+    </div>
+</div> 
+
+<!--Articles en vente-->
+
+<div class="container" id="row-confitures">
+    <div class="row"  >    
+        <div class="card">
+            <div class="card-body">
+                <h6>Confiture de Cerises</h6>
+                <img src="Assets/Images/Confitures/ConfCerises.png" alt="confiture cerises"/>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-body">
+                <h6>Confiture de Coings</h6>
+                <img src="Assets/Images/Confitures/ConfCoings.png" alt="confiture coings"/>
+            </div>  
+        </div>
+        <div class="card">
+            <div class="card-body">
+                <h6>Confitures de Fraises</h6>
+                <img src="Assets/Images/Confitures/ConfFraise.png" alt="confiture fraise" />
+            </div>
+        </div>   
+    </div>
+</div>
+
+
+<div class="container" id="row-boissons" >
+    <div class="row">
+        <div class="card">
+            <div class="card-body">
+                <h6>Jus de mûres</h6>
+                <img src="Assets/Images/Boisson/jusdeMurs.png" alt="jus mûres"/>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-body">
+                <h6>Jus de Myrtilles</h6>
+                <img src="Assets/Images/Boisson/jusdeMyrtilles.png" alt="jus myrtilles"/>
+            </div>
+        </div>  
+        <div class="card">
+            <div class="card-body">
+                <h6>Jus de Pommes</h6>
+                <img src="Assets/Images/Boisson/jusdepomme.png" alt="jus pomme"/>
+            </div>
+        </div>    
+    </div>
+</div>
+
+<div class="container" id="row-fruits">
+    <div class="row">
+        <div class="card">
+            <div class="card-body">
+                <h6>Cerises</h6>
+                <img src="Assets/Images/Fruits/Cerises.png" alt="cerises"/>    
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-body">
+                <h6>Fraises</h6>
+                <img src="Assets/Images/Fruits/Fraise.png" alt="fraises"/>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-body">
+                <h6>Pommes</h6>
+                <img src="Assets/Images/Fruits/PommeRouge.png" alt="pommes"/>
+            </div>
+        </div> 
+        <div class="card">
+            <div class="card-body">
+                <h6>Raisins</h6>
+                <img src="Assets/Images/Fruits/Raisins.png" alt="raisins"/>
+            </div>
+        </div>   
+        <div class="card">
+            <div class="card-body">
+                <h6>Prunes</h6>
+                <img src="Assets/Images/Fruits/Prune.png" alt="prune"/>
+            </div>
+        </div>  
+    </div>
+</div>
+
+<div class="container" id="row-legumes">
+    <div class="row">
+        <div class="card">
+            <div class="card-body">
+                <h6>Carottes</h6>
+                <img src="Assets/Images/Légumes/Carotte.png" alt="carottes"/>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-body">
+                <h6>Petits Pois</h6>
+                <img src="Assets/Images/Légumes/Petitpois.png" alt="petits pois">/
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-body">
+                <h6>Oignons</h6>
+                <img src="Assets/Images/Légumes/Oignons.png" alt="oignons"/>
+            </div>
+        </div> 
+        <div class="card">
+            <div class="card-body">
+                <h6>Aubergines</h6>
+                <img src="Assets/Images/Légumes/Aubergine.png" alt="aubergines"/>
+            </div>
+        </div>   
+        <div class="card">
+            <div class="card-body">
+                <h6>Courgettes</h6>
+                <img src="Assets/Images/Légumes/Courgette.png" alt="courgettes"/>
+            </div>
+        </div> 
+        <div class="card">
+            <div class="card-body">
+                <h6>Tomates</h6>
+                <img src="Assets/Images/Légumes/Tomate.png" alt="tomates"/>
+            </div>
+        </div> 
+    </div>    
+</div>
+
+<!--js--->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" 
+integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" 
+integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" 
+integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script type="text/javascript" src="Assets/js/script.js"></script>
+</body>
+
+</html>
